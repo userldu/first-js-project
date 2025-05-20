@@ -209,4 +209,5 @@ form > .email{
     nav > .bi-list{display: block;}
 
     .container{padding: 60px 100px;}
+    .container > #login{width: 200px;}
 }
