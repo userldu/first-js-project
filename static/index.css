@@ -208,6 +208,10 @@ form > .email{
     nav > ul{display: none;}
     nav > .bi-list{display: block;}
 
+    
+}
+
+@media (max-width:600px){
     .container{padding: 60px 100px;}
     .container > #login{width: 300px;}
     label{font-size: 18px;}
