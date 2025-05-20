@@ -207,4 +207,6 @@ form > .email{
     nav > .search-bar{width: 200px;}
     nav > ul{display: none;}
     nav > .bi-list{display: block;}
+
+    .container{padding: 60px 100px;}
 }
