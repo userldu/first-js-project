@@ -65,6 +65,11 @@ li > a{
     text-decoration: none;
 }
 
+nav > .bi-list{
+    display: none;
+    font-size: 18px;
+}
+
 section{
 
     width: 100%;
@@ -195,4 +200,11 @@ form > .email{
     position: absolute;
     bottom: -5px;
     left: 10px;
+}
+
+@media (max-width: 430px){
+    header > nav{display: flex;padding: 10px;}
+    nav > .search-bar{width: 200px;}
+    nav > ul{display: none;}
+    nav > .bi-list{display: block;}
 }
