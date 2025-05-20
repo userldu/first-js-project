@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./edu.logo.jpg" alt="logo">
+            <div class="search-bar">
+                <i class="bi bi-search"></i>
+                <input id="inp" type="text">
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Account create
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="section-one">
+        <div class="container">
+            <form id="login">
+                <h1>
+                    Login
+                </h1>
+                <div class="email">
+                    <label>
+                        Email
+                    </label>
+                    <input type="email" id="inp-mail">
+                </div>
+                <div class="password">
+                    <label>
+                        Password
+                    </label>
+                    <input type="password" id="inp-pass">
+                    <i class="bi bi-eye-slash-fill"></i>
+                    <i class="bi bi-eye-fill"></i>
+                </div>
+
+                <button id="btn">
+                    Login
+                </button>
+
+                <a id="for-login" href="">Hesabiniz yoxdurmu ?</a>
+            </form>
+
+            <!-- REGISTER -->
+
+            <form id="register">
+                <h1>
+                    Register
+                </h1>
+                <div class="first-name">
+                    <label>
+                        Ad
+                    </label>
+                    <input type="text" id="name">
+                </div>
+                <div class="second-name">
+                    <label>
+                        Soyad
+                    </label>
+                    <input type="text" id="surname">
+                </div>
+                <div class="email">
+                    <label>
+                        Email
+                    </label>
+                    <input type="email" id="inp-mail">
+                </div>
+                <div class="password">
+                    <label>
+                        Password
+                    </label>
+                    <input type="password" id="inp-pass">
+                    <i class="bi bi-eye-slash-fill"></i>
+                    <i class="bi bi-eye-fill"></i>
+                </div>
+
+                <button id="register-btn">
+                    Daxil ol
+                </button>
+
+                <a id="for-register" href="">Hesabiniz varmi ?</a>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <h1>&copy; Ramal Asgarov</h1>
+    </footer>
+
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
